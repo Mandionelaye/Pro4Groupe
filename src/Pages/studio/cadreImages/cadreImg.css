@@ -1,0 +1,29 @@
+.imgCadre{
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    z-index: 1;
+    padding: 0;
+}
+.img1{
+    width: 278px;
+    height: 280px;
+    flex-shrink: 0;
+}
+.cardimg{
+    padding: 10px 15px 10px 15px;
+}
+.btnC{
+    background-color: transparent;
+}
+.ensemble_flechi{
+    display: flex;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.imgCadre::-webkit-scrollbar{
+    display: none;
+  }

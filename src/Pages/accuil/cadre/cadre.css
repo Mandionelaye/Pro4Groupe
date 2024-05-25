@@ -1,0 +1,125 @@
+.cadre{
+    width: 100%;
+}
+.orange{
+    height: 52vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./imgCadre/c1.jpg) center center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.red{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./imgCadre/c3.jpg) center center no-repeat;
+    background-position-y: 10%;
+    background-size: 100%;
+    height: 52vh;
+}
+.black{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./imgCadre/c2.jpg) center center no-repeat;
+    background-position-y: 10%;
+    background-size: 100%;
+    height: 52vh;
+    
+}
+.bleu{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./imgCadre/c4.jpg) center center no-repeat;
+    background-size: cover;
+    height: 52vh;
+}
+.text{
+    color: #fff;
+    margin-top:20px;
+}
+.titre_cadre{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFF;
+font-family: Jacques Francois;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.p_cadre{
+    color: #FFF;
+text-align: center;
+font-family: Jacques Francois;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+}
+.btn_cadres{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.btn_cadre{
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 20px; 
+    border: none;
+}
+.Link{
+    text-decoration: none;
+    width: 40%;
+}
+.btn_cadre p{
+text-align: center;
+font-family: Jacques Francois;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+}
+.btn_blue{
+    color: #FFF;
+    background: #2F88FF;
+}
+.btn_rose{
+    color: #FFF;
+    background: #F9429E;
+}
+.btn_black{
+    color: #FFF;
+    background: #000;
+}
+.btn_red{
+    color: #FFF;
+    background: #f00;
+}
+.btn_blue:hover{
+    border:2px solid #2F88FF ;
+    color: #2F88FF;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+.btn_rose:hover{
+    border:2px solid #F9429E ;
+    color: #F9429E ;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+.btn_black:hover{
+    border:2px solid #000;
+    color: #000;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+.btn_red:hover{
+    border:2px solid  #f00;
+    color: #f00;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

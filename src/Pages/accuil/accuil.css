@@ -1,0 +1,83 @@
+.img_accuil{
+    width: 100%;
+    height: 50%;
+}
+.liste_accuil{
+    display: flex;
+    justify-content: center;
+}
+.accuil_pre{
+    width: 100%;
+}
+.elmvideo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.accuil_ul li{
+    color: #000;
+font-family: Jacques Francois;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+padding: 5px;
+margin-top: 20px;
+}
+.accuil_pre{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.accuil_pre_item{
+    width: 25%;
+}
+.accuil_pre_item_img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.video_p{
+    font-family: Jacques Francois;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    width: 30%;
+}
+.cadreExtre{
+    width: 100%;
+}
+.imgcarAcc{
+    width: 100px;
+    height: 400px;
+}
+.imgExtre{
+    width: 100%;
+    height: 314px;
+    flex-shrink: 0;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.react-player {
+    height: 100vh;
+    width: 100%;
+    min-height: 225px;
+   }
+@media screen and (max-width: 1024px) {
+    .accuil_pre_item_img{
+        width: 100px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .accuil_pre_item_img{
+        width: 60px;
+        height: 100px;
+    }
+    .video-wrapper{
+        height: 40vh;
+    }
+}

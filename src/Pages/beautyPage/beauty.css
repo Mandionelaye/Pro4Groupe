@@ -1,0 +1,165 @@
+.imgHB{
+    width: 100%;
+    height: 60vh;
+}
+.headbody{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.borBeauty{
+    position: relative;
+    top: -130px;
+    left: 20%;
+    border: 3px solid #F9429E;
+    width: 60%;
+    flex-shrink: 0;
+    padding-top: 10px;
+}
+.borBeauty button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: #F9429E;
+    font-family: Jacques Francois;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-bottom:5px ;
+}
+.borBeauty p{
+    color: #F9429E;
+    font-family: Jacques Francois;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardBeauty{
+    width: 100%;
+    margin: 0;
+}
+.imgCol6{
+    width: 100%;
+    height: 41vh;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.imgColl{
+    width: 100%;
+height:90vh;
+flex-shrink: 0;
+margin-bottom: 50px;
+}
+.m1{
+    padding: 0px 20px 0px 10px;
+}
+.produitB{
+    background: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url(./bg3.png) center center no-repeat;
+    background-size: cover;
+    background-position:center ;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+}
+.produitB h1{
+    color: #FFF;
+    font-family: Jacques Francois;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+}
+.produitB h2{
+    color: #FFF;
+    font-family: Jacques Francois;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: center;
+    width: 13%;
+    }
+.produitB li{
+    color: #FFF;
+    font-family: Jacques Francois;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    list-style-type: none;
+    width: 320px;
+}
+.reserve{
+    position: relative;
+    top: 100px;
+}
+.reserve button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: #F9429E;
+    border: none;
+    font-family: Jacques Francois;
+    color: #fff;
+    text-align: center;
+}
+.reserve p{
+    color: #fff;
+    font-size: 30px;
+    width: 200px;
+}
+.h4{
+    height: 30%;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.h2{
+    height: 50%;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.h3{
+    height: 30%;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.vd{
+    height: 600px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 768px) {
+    .imgColl{
+        height:50vh;
+    }
+    .imgCol6{
+        margin-left: 0;
+        margin-bottom: 10px;
+        height: 24vh;
+    }
+    .produitB h1{
+        font-size: 20px;
+
+    }
+    .produitB h2{
+        font-size: 17px;
+    }
+    .produitB li{
+        font-size: 10px;
+        width: 100px;
+        line-height: 20px;
+    }
+    .reserve{
+        top: 0px;
+    }
+    .reserve button{
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .reserve p{
+        width: 100px;
+    }
+    .vd{
+        height: 150px;
+    }
+
+}

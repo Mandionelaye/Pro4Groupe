@@ -1,0 +1,84 @@
+.headerStudio{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.imgStudio{
+    width: 100%;
+    height: 60vh;
+}
+.titreStudio{
+    position: relative;
+    top: -105px;
+    width: 53%;
+    padding:11px  5px 11px  5px;
+    background-color: #fff;
+    left: 24%;
+
+}
+.titreStudio h1{
+    display: inline;
+    color: #2F88FF;
+font-family: Jacques Francois;
+font-style: normal;
+font-weight: 400;
+}
+.titreStudio button{
+    float: right;
+    color: #FFF;
+font-family: Jacques Francois;
+font-size: 30px;
+padding: 0px 2px 0px 2px;
+font-style: normal;
+font-weight: 400;
+margin-right: 5px;
+}
+
+.titreElm{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.elms{
+    margin-bottom: 30px;
+}
+
+.titreElm h1{
+    color: #2F88FF;
+    font-family: Jacques Francois;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.res{
+    color: #2F88FF;
+}
+.crBleu{
+    padding: 0;
+    width: 50%;
+    height: 50px;
+}
+.moiBtn{
+    width: 116px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #2F88FF;
+    color: #FFF;
+    font-family: Jacques Francois;
+    font-size: 25px;
+}
+.moiBtn:hover{
+    color: #2F88FF;
+    border: 1px solid #2F88FF;
+}
+
+@media screen and (max-width: 768px) {
+    .imgStudio{
+        width: 100%;
+        height: 50%;
+    }
+}

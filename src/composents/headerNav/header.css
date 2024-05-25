@@ -1,0 +1,28 @@
+.ulnav{
+    margin-left: -60px !important;
+}
+.img_logo{
+    width: 40px;
+    border-radius: 50%;
+}
+.navmoi{
+    box-shadow: 0px 0px 10px;
+}
+.nav-link{
+    font-size: 25px;
+    font-family: Jacques Francois;
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(43, 43, 252);
+    border-bottom: 1px solid rgb(43, 43, 252);
+}
+.nav-link:active{
+    color: rgb(43, 43, 252);
+}
+.am{
+    font-size: 30px;
+}
+li{
+    color: black;
+}

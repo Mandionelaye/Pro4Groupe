@@ -1,0 +1,10 @@
+.large{
+    width: 20% !important;
+    text-align: center;
+}
+.valide{
+    background-color: rgb(39, 177, 39);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
